@@ -24,7 +24,7 @@ st.markdown("""
 """)
 
 
-# menu jjj
+# menu
 st.subheader("App Features")
 st.markdown("""
 1. **View Data**: Access proprietary data
