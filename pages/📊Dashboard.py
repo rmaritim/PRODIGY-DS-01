@@ -9,3 +9,4 @@ st.set_page_config(
 )
 
 st.title("📊 Welcome to My Dashboard!")
+st.write("This is the Dashboard. You can add your data visualizations here.")

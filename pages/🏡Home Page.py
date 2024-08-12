@@ -1,7 +1,6 @@
-import streamlit as st
-
+import streamlit as st 
 st.set_page_config(
-    page_title="Churn App",
+    page_title="Home Page",
     page_icon="🏡",
     layout="wide"
 )
@@ -15,7 +14,7 @@ st.markdown("""
 # Key Features
 st.subheader("Key Features")
 st.markdown("""
-- Upload CSV data file of company
+- Read data from SQL Server
 - Select the features for classification
 - From the dropdown choose a machine learning model of your choice
 - This app also provide a comprehensive report on the performance of the model

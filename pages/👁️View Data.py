@@ -3,8 +3,8 @@ import pandas as pd
 import pyodbc
 
 
-st.title("Welcome to the Data page")
-
+st.title("👁️Welcome to the Data page")
+st.write("Here you can view the data. Add your data viewing functionality here.")
 
 # Connect to SQL Server
 conn = pyodbc.connect(
