@@ -16,9 +16,7 @@ st.subheader("Key Features")
 st.markdown("""
 - Read data from SQL Server
 - Select the features for classification
-- From the dropdown choose a machine learning model of your choice
 - This app also provide a comprehensive report on the performance of the model
-- Metrics like accuracy score, precision, recall and f1-score are included in the report 
 - The app provides interactive charts for feature importance and churn probability
 """)
 
@@ -26,9 +24,10 @@ st.markdown("""
 # App features
 st.subheader("App Features")
 st.markdown("""
-1. **View Data**: Access proprietary data
-            
-2. **Dashboard**: Explore interactive visuals for insights
+1. **Home page**
+2. **View Data**           
+3. **Dashboard**
+4. **Prediction**
 """)
 
 
