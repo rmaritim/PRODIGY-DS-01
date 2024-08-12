@@ -24,13 +24,23 @@ st.markdown("""
 """)
 
 
-# menu
+# App features
 st.subheader("App Features")
 st.markdown("""
 1. **View Data**: Access proprietary data
             
 2. **Dashboard**: Explore interactive visuals for insights
 """)
+
+
+# How to run the app
+st.subheader("How to run Churn App")
+st.code(""" 
+        # activate virtual environment
+        venv/Scripts/activate
+        streamlit run app.py
+        """, language= 'python')
+
 
 # Machine Learning Integration
 st.subheader("Machine Learning Integration")
