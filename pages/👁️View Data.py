@@ -22,8 +22,5 @@ df = pd.read_sql(query, conn)
 # Display data
 st.write(df)
 
-# Example chart
-st.line_chart(df)
-
 # Close the connection
 conn.close()
