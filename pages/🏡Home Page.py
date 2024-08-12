@@ -53,6 +53,5 @@ st.markdown("""
 
 # Contact and Github Repository
 st.subheader("Ask for Help")
-st.markdown("For collaboration contact me at [victor.duah@azubiafrica.org]")
-st.markdown("[connect](https://github.com/Victor-Osei)")
+st.markdown("For collaboration contact Team Fiji")
 st.button("Repository on Github")
