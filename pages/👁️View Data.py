@@ -1,18 +1,21 @@
 import streamlit as st
 import pandas as pd
 import pyodbc
-
+from dotenv import dotenv_values
 
 st.title("👁️Welcome to the Data page")
 st.write("Here you can view the data. Add your data viewing functionality here.")
 
-# Connect to SQL Server
+# Load environment variables from .env file
+env_vars = dotenv_values('.env')
+
+# Connect to SQL Server using credentials from .env file
 conn = pyodbc.connect(
-    'DRIVER={ODBC Driver 17 for SQL Server};'
-    'SERVER=dap-projects-database.database.windows.net;'
-    'DATABASE=dapDB;'
-    'UID=LP2_project;'
-    'PWD=Stat$AndD@t@Rul3;'
+    f"DRIVER={env_vars['DRIVER']};"
+    f"SERVER={env_vars['SERVER']};"
+    f"DATABASE={env_vars['DATABASE']};"
+    f"UID={env_vars['UID']};"
+    f"PWD={env_vars['PWD']};"
 )
 
 # Query the data
