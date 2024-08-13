@@ -8,7 +8,7 @@ def home():
     st.markdown("<h3 style='text-align: center; color: #f39c12;'>Designed by Team Fiji</h3>", unsafe_allow_html=True)
     
     # Add a nice visual (banner image or illustration)
-    st.image("C:/Users/lenovo/Documents/Documents/personal/Azubi Africa/Git Assignment/LP4 Repo Annette/App_Streamlit_Churn/Customer-churn-prediction.webp", use_column_width=True, caption="Predicting customer churn to retain valuable customers.")
+    st.image("Customer-churn-prediction.webp", use_column_width=True, caption="Predicting customer churn to retain valuable customers.")
 
     # Provide a brief introduction or description of the app
     st.write("""
