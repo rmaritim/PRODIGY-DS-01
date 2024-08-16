@@ -16,7 +16,7 @@ st.title("🔮 Predictive Analytics Dashboard")
 st.subheader("Empowering your decisions with data-driven insights")
 
 # Loading the model and preprocessing tools
-components = joblib.load(r'C:\Users\Dell\Desktop\NEW\Customer_Churn_Analysis\notebooks\exports\churn_model_components.pkl')
+components = joblib.load('models/churn_model_components.pkl')
 
 # Extract the preprocessor and models
 preprocessor = components['preprocessing']['preprocessor']
