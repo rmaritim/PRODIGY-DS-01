@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 /venv/
 .env
+=======
+/virt_caps
+/.env
+>>>>>>> 46aa8cdcb5dfa9510a3abd1a3310abd1723c55ca
